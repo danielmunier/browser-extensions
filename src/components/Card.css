@@ -1,0 +1,58 @@
+
+
+.card {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    flex-direction: column;
+    height: 100%;
+    background-color: #1F2535;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 1px solid rgba(245, 245, 245, 0.170);
+  
+}
+
+.card_content {
+    display: flex;
+    background-color: #1F2535;
+    color: whitesmoke;
+    
+}
+
+
+
+
+.icon {
+    background-color: blue;
+}
+
+.head {
+    padding: 10px 0px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.head p {
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+.control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.control .remove {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgba(245, 245, 245, 0.171);
+    color: white;
+    border-radius: 15px;
+    padding: 8px;
+
+}

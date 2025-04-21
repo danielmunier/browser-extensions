@@ -1,11 +1,17 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
