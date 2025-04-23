@@ -1,5 +1,6 @@
 .toggle {
     display: inline-block;
+    text-align: center;
     height: 1.5rem;
     position: relative;
     width: 3rem;

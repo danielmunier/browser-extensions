@@ -1,10 +1,13 @@
 import "./Toggle.css"
 
 
-const Toggle = () => {
-    return (
+const Toggle = ({isActive, onClick}) => {
+
+
+
+        return (
         <div className="toggle">
-                <input type="checkbox" name="" id="" />
+                <input onClick={() => onClick()} defaultChecked={isActive} type="checkbox" name="toggle input"/>
         </div>
     )
 }

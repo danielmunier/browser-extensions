@@ -1,0 +1,17 @@
+.filter_button {
+  text-decoration: none;
+  padding: 8px 15px 8px 15px;
+  border: 1px solid rgba(245, 245, 245, 0.171);
+  background-color: #1F2535;
+  color: white;
+  border-radius: 18px;
+}
+
+.filter_button:hover {
+  cursor: pointer;
+}
+
+.filter_button.active {
+  background-color: #F35C55;
+  color: black;
+}

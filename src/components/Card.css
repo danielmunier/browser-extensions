@@ -3,13 +3,13 @@
 .card {
     display: flex;
     margin: 0;
-    padding: 10px;
     flex-direction: column;
-    height: 100%;
     background-color: #1F2535;
     max-width: 300px;
     border-radius: 10px;
     border: 1px solid rgba(245, 245, 245, 0.170);
+    padding: 10px;
+
   
 }
 
@@ -17,7 +17,7 @@
     display: flex;
     background-color: #1F2535;
     color: whitesmoke;
-    
+    gap: 10px;
 }
 
 
@@ -28,7 +28,6 @@
 }
 
 .head {
-    padding: 10px 0px 0 10px;
     display: flex;
     flex-direction: column;
 }
@@ -43,8 +42,10 @@
 
 .control {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin-top: 5vh;
+    margin-top: auto;
+    padding-top: 10px;
 }
 
 .control .remove {

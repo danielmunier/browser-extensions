@@ -1,8 +1,10 @@
 import "./Card.css"
 import Toggle from "./Toggle";
 
-const Card = ({name, description, logo}) => {
-    console.log(logo)
+const Card = ({name, description, logo, isActive, onToggle}) => {
+    
+ 
+
     return (
             <div className="card">
 
@@ -21,7 +23,9 @@ const Card = ({name, description, logo}) => {
 
                 <div className="control">
                     <button className="remove">Remove</button>
-                    <Toggle />
+
+
+                    <Toggle onClick={onToggle} isActive={isActive} />
                 </div>
 
 
