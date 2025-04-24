@@ -1,7 +1,8 @@
 import "./Card.css"
+import RemoveButton from "./RemoveButton";
 import Toggle from "./Toggle";
 
-const Card = ({name, description, logo, isActive, onToggle}) => {
+const Card = ({name, description, logo, isActive, onToggle, onRemove}) => {
     
  
 
@@ -14,7 +15,7 @@ const Card = ({name, description, logo, isActive, onToggle}) => {
 
 
                     <div className="head">
-                        <h3>{name}</h3>
+                        <h2>{name}</h2>
                         <p>{description}</p>
                     </div>
 
@@ -22,8 +23,8 @@ const Card = ({name, description, logo, isActive, onToggle}) => {
                 </div>
 
                 <div className="control">
-                    <button className="remove">Remove</button>
-
+                  
+                    <RemoveButton onClick={onRemove}/>
 
                     <Toggle onClick={onToggle} isActive={isActive} />
                 </div>

@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    background-color: #1F2535;
+    border-radius: 18px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.nav .nav-title img {
+    width: 80%;
+    filter:invert()
+}
+
+.nav-title {
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: white;
+}
+
+.night-switch {
+    background-color: #1F2535;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.night-switch img {
+}

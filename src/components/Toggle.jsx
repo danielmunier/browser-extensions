@@ -7,7 +7,7 @@ const Toggle = ({isActive, onClick}) => {
 
         return (
         <div className="toggle">
-                <input onClick={() => onClick()} defaultChecked={isActive} type="checkbox" name="toggle input"/>
+                <input aria-label="toggle" onClick={() => onClick()} defaultChecked={isActive} type="checkbox" name="toggle input"/>
         </div>
     )
 }

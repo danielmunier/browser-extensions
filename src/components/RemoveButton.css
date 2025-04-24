@@ -1,0 +1,9 @@
+.remove {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgba(245, 245, 245, 0.171);
+    color: white;
+    border-radius: 15px;
+    padding: 8px;
+
+}
